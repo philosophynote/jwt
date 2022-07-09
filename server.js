@@ -16,7 +16,6 @@ app.post("/login", auth, (req, res) => {
   });
 });
 
-// set port
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
